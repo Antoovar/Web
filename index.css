@@ -1,0 +1,316 @@
+
+.contenedor{
+    background-color: rgb(231, 226, 226);
+        width: 1400px;
+        height: 100%;
+        padding: 0px;
+        margin:0px;
+        overflow-x: hidden;
+        
+}
+
+body {
+    font-family: 'Pangolin', cursive;
+}
+
+ input {
+    display: none;
+}
+
+i{
+    color:transparent;
+}
+.nav{
+  
+    display: flex;
+    margin-left: 800px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    } 
+
+
+li a{
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+
+li a:hover{
+   background-color: #000000;
+   color: #ffffff;
+}
+
+.h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+
+.logo {
+
+   display: flex;
+   justify-content: center;
+   transition: width 50s, height 50s, ease-in;
+}
+
+.logo:hover{
+    width:100%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+
+h2{
+    margin-top: 70px;
+    text-align: center;
+}
+.servicios{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.torta{
+    width: 150px;
+    height: 150px;
+
+}
+.torta:hover{
+    width:200px;
+    height: 200px;
+    
+}
+
+.tarta{
+    width: 150px;
+    height: 150px;
+    
+}
+.tarta:hover{
+    width:200px;
+    height: 200px;
+    
+}
+.cupcake{
+    width: 150px;
+    height: 150px;
+    
+}
+.cupcake:hover{
+    width:200px;
+    height: 200px;
+    
+}
+.mesa{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.mesa:hover{
+    width:200px;
+    height: 200px;
+    
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 300px;
+    background-color: #000000;
+}
+
+.ultimo{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 40%;
+   
+}
+
+
+@media only screen and (max-width: 700px){
+
+    .contenedor{
+        background-color: rgb(231, 226, 226);
+            width: 320px;
+            height: 100%;
+            padding: 0px;
+            margin:0px;
+            overflow-x: hidden;
+            
+    }
+
+    
+body {
+    font-family: 'Pangolin', cursive;
+}
+
+
+
+input {
+    display: block;
+}
+
+i{
+    color: rgb(0, 0, 0);
+}
+ 
+ li { 
+     width: 80px;
+     height: 28px;
+     margin-top: 2px;
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     display: block;
+     padding: 5px;
+     
+     font-family: 'IBM Plex Mono', monospace;
+ 
+   }
+
+   .li2{
+    width: 200px;
+    height: 28px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    
+    font-family: 'IBM Plex Mono', monospace;
+   }
+
+.ul {
+    width: 320px;
+    height: 224px;
+    margin-top: 5px;
+    padding: 0px;
+    background-color: #efb6fa;
+    display: flex;
+    flex-direction:column;
+ }
+ 
+
+
+
+.nav input[type="checkbox"], .nav .fa-bars, .nav .fa-times {
+    position: absolute;  
+    box-sizing: border-box;
+    padding: 0;
+    right: 10px;
+    width: 30px;
+    height: 30px;  
+    
+  }
+
+  .nav .fa-bars, .nav .fa-times {
+    font-size: 30px;
+    padding: 0px;
+    pointer-events: none;
+  }
+ 
+  .nav input[type="checkbox"] {
+    opacity: 0; 
+  }
+  
+  .nav {
+    width: 320px;
+    height: 44px;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    position: relative; 
+    min-height: 48px;
+  }
+
+  .nav nav{
+    display: none;
+  }
+   
+  .nav input:checked ~ nav {
+    display: block;
+  }
+   
+  .nav input:checked ~ .fa-bars {
+    display: none;
+  }
+   
+  .nav input:not(:checked) ~ .fa-times {
+    display: none;
+  }
+
+
+  .h1{
+
+    margin-top: 100px;
+  }
+
+  
+
+
+.logo {
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+ }
+ 
+ .servicios{
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction:column;
+}
+
+
+.footer{
+    width: 100%;
+    height: 30px;
+    margin-top: 100px;
+    background-color: #000000;
+}
+
+.ultimo{
+    color: #ffffff;
+    font-size: 10px;
+    margin: 0 40%;
+   
+}
+
+}
+
+@media (min-width: 750px) and (max-width: 1199px) { 
+    
+    .contenedor{
+        background-color: rgb(231, 226, 226);
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+            margin:0px;
+            overflow-x: hidden;
+            
+    }
+   
+.nav{
+  
+    display: flex;
+    margin-left: 100px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    } 
+
+
+li a{
+    color: rgb(0, 0, 0);
+    background-color: #eccaf1;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+
+    }
